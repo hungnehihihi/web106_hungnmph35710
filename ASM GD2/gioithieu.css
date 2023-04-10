@@ -1,0 +1,403 @@
+/* .diachi {
+    background-color:aquamarine;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+#toggle{
+    background: #fff;;
+    color: #ddd;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.banner>img{
+    width: 20%;
+}
+nav {
+background-color:aquamarine;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+padding-left: 100px;
+font-size: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+}
+li a:hover{
+    background-color: rgba(21, 179, 176, 0.463);
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  .col, .gallery-item, .columns {
+    position: relative;
+    margin: 0;
+    padding: 0 10px 20px;
+    width: 100%;
+}
+.sanpham{
+    background-color: orangered;
+    width: 400px;
+    height: 100px;
+padding: 10px;
+    color: #fff;
+}
+.sanphamdemo>h4{
+   color: red;
+}
+
+
+
+
+
+footer {
+    padding-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+
+
+}
+.ftphai{
+    margin-left: 200px;
+} */
+@media screen and (min-width: 320px){ 
+    .diachi {
+        background-color:aquamarine;
+        font-size: smaller;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+    }
+    #wapper{
+        
+    }
+    #toggle{
+        background: #fff;;
+        color: #ddd;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .banner {
+        background-color: white;
+        padding-top: 10px;
+        padding-left: 50px;
+        width:300%;
+    }
+    .banner>img{
+        width: 20%;
+    }
+    nav {
+    background-color:aquamarine;
+    
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    }
+    nav ul li a{
+        text-decoration: none;
+        margin: 30px;
+        
+    }
+    li a:hover{
+        background-color: rgba(21, 179, 176, 0.463);
+    }
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+
+    }
+    
+      
+      
+      
+      .col, .gallery-item, .columns {
+        position: relative;
+        margin: 0;
+        padding: 0 10px 20px;
+        width: 100%;
+    }
+    .sanpham{
+        background-color: orangered;
+        width: 350px;
+        height: 50px;
+text-align: center;
+        color: #fff;
+    }
+    .sanphamdemo>h4{
+       color: red;
+    }
+    
+    
+    
+    
+    
+    footer {
+        padding-top: 10px;
+        background-color: black;
+        color: whitesmoke;
+        
+    
+    
+    }
+    
+}
+@media screen and (min-width: 600px){ 
+    .diachi {
+        background-color:aquamarine;
+        font-size: smaller;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+    }
+    #toggle{
+        background: #fff;;
+        color: #ddd;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .banner {
+        background-color: white;
+        padding-top: 10px;
+        padding-left: 150px;
+        width:200%;
+    }
+    .banner>img{
+        width: 20%;
+    }
+    nav {
+    background-color:aquamarine;
+    
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    padding-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        margin: 30px;
+    }
+    li a:hover{
+        background-color: rgba(21, 179, 176, 0.463);
+    }
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+      }
+      
+      .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+      }
+      
+      .item2 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+      }
+      .col, .gallery-item, .columns {
+        position: relative;
+        margin: 0;
+        padding: 0 10px 20px;
+        width: 100%;
+    }
+    .sanpham{
+       
+        width: 200px;
+        height: 50px;
+text-align: center;
+        color: #fff;
+        text-align: center;
+    }
+    .sanphamdemo>h4{
+       color: red;
+    }
+    
+    
+    
+    
+    
+    footer {
+        padding-top: 10px;
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+    
+    
+    }
+    .ftphai{
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (min-width: 1024px){ 
+    .diachi {
+        background-color:aquamarine;
+        font-size: smaller;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 150px;
+        padding-right: 150px;
+    
+    }
+    #toggle{
+        background: #fff;;
+        color: #ddd;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .banner {
+        background-color: white;
+        padding-top: 10px;
+        padding-left: 150px;
+    }
+    .banner>img{
+        width: 20%;
+    }
+    nav {
+    background-color:aquamarine;
+    
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    padding-left: 100px;
+    font-size: 20px;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        margin: 30px;
+    }
+    li a:hover{
+        background-color: rgba(21, 179, 176, 0.463);
+    }
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+      
+      .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+      }
+      
+      .item2 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+      }
+      .col, .gallery-item, .columns {
+        position: relative;
+        margin: 0;
+        padding: 0 10px 20px;
+        width: 100%;
+    }
+    .sanpham{
+        background-color: orangered;
+        width: 400px;
+        height: 100px;
+    padding: 10px;
+        color: #fff;
+    }
+    .sanphamdemo>h4{
+       color: red;
+    }
+    
+    
+    
+    
+    
+    footer {
+        padding-top: 10px;
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+    
+    
+    }
+    .ftphai{
+        margin-left: 200px;
+    }
+}
+

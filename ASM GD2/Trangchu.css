@@ -1,0 +1,663 @@
+ /*.content {}
+
+.diachi {
+    background-color:aquamarine;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.banner {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.nav {
+background-color:aquamarine;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+padding-left: 100px;
+font-size: 20px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+}
+li a:hover{
+    background-color: rgba(21, 179, 176, 0.463);
+}
+.box1{
+    display: flex;
+    padding-left: 120px;
+    justify-content: space-between;
+}
+table {
+    border-collapse: collapse;
+   
+  }
+  
+  th, td {
+    padding-left: 30;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+.benphai{
+    padding-right: 150px;
+}
+.nd1{
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box2 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    padding-left: 30px;
+}
+
+.sanpham1{
+    
+    background-color: whitesmoke;
+    padding-top: 50px;
+    display: flex;
+    padding: 0;
+}
+
+   
+
+.sp1{
+  
+    border-style:solid;
+    width: 20%;
+margin: auto;
+}
+.sp1 p{
+    padding-left: 100px;
+    color: red;
+}
+.sp1 h3{
+padding-left: 20px;
+}
+footer {
+    padding-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+  justify-content: space-between;
+
+}
+.frtrai{
+
+}
+
+.ftphai{
+    margin: 10px 300px;
+} */ 
+
+@media screen and (min-width: 320px){ 
+    .content {
+        width: 100%;
+        
+    }
+#main-menu{
+    flex-direction: column;
+  
+}
+
+#toggle{
+    background: #353b48;
+    color: #ddd;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.diachi {
+    background-color:gray;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.banner {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+    
+}
+.banner> img{
+    width:80%;
+}
+#wapper{
+  
+}
+nav {
+background-color:gray;
+display: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+padding-left: 100px;
+padding: 20px;
+font-size: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+    padding: 8px 15px;
+    color: black;
+}
+li a:hover{
+    background-color: rgba(21, 179, 176, 0.463);
+}
+.box1{
+   
+    padding-left: 10px;
+    justify-content: space-between;
+   
+}
+
+.box1>.bentrai{
+    
+    display: none;
+}
+.box1>.benphai{
+  padding-right: 100px;
+    
+}
+table {
+    border-collapse: collapse;
+   
+  }
+  
+  th, td {
+    padding-left: 30;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+.nd1{
+    padding-left: 120px;
+    padding-right: 120px;
+    display:none;
+    justify-content: space-between;
+}
+.box2 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box2 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box3 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box4 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    padding-left: 30px;
+}
+
+.sanpham1{
+    
+    background-color: whitesmoke;
+    padding-top: 50px;
+width: 100%;  
+
+ 
+}
+.sanphamtren{
+    
+}
+   .sanphamduoi{
+ 
+
+   }
+
+.sp1{
+  
+    border-style:solid;
+    width: 50%;
+margin: auto;
+}
+.sp1 p{
+    padding-left: 20px;
+    color: red;
+}
+.sp1 h3{
+padding-left: 10px;
+}
+footer {
+    padding-top: 10px;
+    background-color:black;
+    color: whitesmoke;
+   
+  justify-content: space-between;
+
+}
+}
+
+
+
+/* tablet */
+  @media screen and (min-width: 600px){ 
+    .content {
+        width: 100%;
+        
+    }
+#main-menu{
+    flex-direction: column;
+  
+}
+
+#toggle{
+    background: #658cda;
+    color: #ddd;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.diachi {
+    background-color:gray;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.banner {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+   
+}
+.banner>img{
+    width: 50%;
+}
+#wapper{
+  
+}
+nav {
+background-color:gray;
+display: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+padding-left: 100px;
+padding: 20px;
+font-size: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+    padding: 8px 15px;
+    color: black;
+}
+li a:hover{
+    background-color: rgba(21, 179, 176, 0.463);
+}
+.box1{
+   width: 100%;
+   padding-right: 100px;
+}
+    
+.box1>.bentrai{
+    
+    display: none;
+}
+.box1>.benphai{
+  padding-right: 100px;
+    
+}
+table {
+    border-collapse: collapse;
+   
+  }
+  
+  th, td {
+    padding-left: 30;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+.nd1{
+    padding-left: 120px;
+    padding-right: 120px;
+    display:none;
+    justify-content: space-between;
+}
+.box2 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box2 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box3 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box4 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    padding-left: 30px;
+}
+
+.sanpham1{
+    
+    background-color: whitesmoke;
+    padding-top: 50px;
+  
+
+    padding: 0;
+}
+.sanphamtren{
+    display: flex;
+flex-direction: row;
+}
+   .sanphamduoi{
+    display: flex;
+flex-direction: row;
+   }
+
+.sp1{
+  
+    border-style:solid;
+    width: 50%;
+margin: auto;
+}
+.sp1 p{
+    padding-left: 20px;
+    color: red;
+}
+.sp1 h3{
+padding-left: 10px;
+}
+footer {
+    padding-top: 10px;
+    background-color:black;
+    color: whitesmoke;
+    display: flex;
+  justify-content: space-between;
+
+}
+
+}
+
+
+ /* Máy tính */
+@media screen and (min-width: 1024px){ 
+    .content {
+        width: 100%;
+    }
+    #main-menu{
+        flex-direction: row;
+    }
+    #toggle{
+        background: #fff;
+        color: #ddd;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+.diachi {
+    background-color:aquamarine;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.banner {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+nav {
+background-color:aquamarine;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+padding-left: 100px;
+font-size: 20px;
+
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
+li a:hover{
+    background-color: rgba(21, 179, 176, 0.463);
+}
+.box1{
+    display: flex;
+    padding-left: 120px;
+    justify-content: space-between;
+}
+table {
+    border-collapse: collapse;
+   
+  }
+  
+  th, td {
+    padding-left: 30;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+.nd1{
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+   
+}
+.box2 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box3 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box4 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box4 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box5 {
+   
+    display: flex;
+    font-size: small;
+    border-style:  solid;
+    width: 250px;
+}
+.box5 p{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    padding-left: 30px;
+}
+
+.sanpham1{
+    
+    background-color: whitesmoke;
+    padding-top: 50px;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+
+   
+
+.sp1{
+  
+    border-style:solid;
+    width: 40%;
+margin: auto;
+}
+
+.sp1 p{
+    padding-left: 100px;
+    color: red;
+}
+.sp1 h3{
+padding-left: 20px;
+}
+footer {
+    padding-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+  justify-content: space-between;
+
+}
+.frtrai{
+
+}
+
+.ftphai{
+    margin: 10px 300px;
+}
+}  
